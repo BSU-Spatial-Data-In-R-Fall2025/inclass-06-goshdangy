@@ -21,5 +21,5 @@ plot_top_donors <- function(df) {
 rep_plots <- plot_top_donors(top5_donors)
 
 # View Fulcer's plot
-# Can use followng Names to Check ("Simpson", "Fulcher", "Risch", "Crapo")
+# Can use following Names to Check ("Simpson", "Fulcher", "Risch", "Crapo")
 rep_plots[["fulcher"]]

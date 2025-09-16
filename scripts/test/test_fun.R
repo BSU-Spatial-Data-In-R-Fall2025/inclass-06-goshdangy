@@ -53,6 +53,8 @@ ind_donors <- map(contribution_data,
                                          vars = select_vars,
                                          donor_type = TRUE)) %>% 
   bind_rows()
+
+
 ###
 find_top_n <- function(df, group_col, rank_col, value_col, n) {
   df %>%

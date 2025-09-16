@@ -13,7 +13,7 @@ plot_top_donors <- function(df) {
         x = "Donor Name",
         y = "Amount Given ($)"
       ) +
-      theme_minimal()
+      theme_linedraw()
   })
 }
 
